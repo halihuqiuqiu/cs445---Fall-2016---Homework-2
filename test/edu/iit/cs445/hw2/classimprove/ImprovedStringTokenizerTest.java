@@ -9,10 +9,17 @@ import java.util.Arrays;
 import static org.junit.Assert.*;
 
 /**
+ * unit test for class ImprovedStringTokenizer
  * Created by YongYang on 9/27/16.
  */
 public class ImprovedStringTokenizerTest {
+    /** instantiation of class ImprovedStringTokenizer to test */
     ImprovedStringTokenizer t= new ImprovedStringTokenizer("This class is easy");
+
+    /**
+     * Unit test for {@link ImprovedStringTokenizer#tokenArray()}
+     * @throws Exception
+     */
     @Test
     public void tokenArray() throws Exception {
 
